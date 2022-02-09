@@ -96,9 +96,33 @@
               <!-- dropDownList and post code -->
               <div class="leftDownside-last">
                 <div class="dropDownList">
-                  <label for=""></label>
+                  <label for="country">Country</label>
+                  <select name="country" id="country">
+                    <option value="turkey" selected>Turkey</option>
+                    <option value="germany">Germany</option>
+                    <option value="belgium">Belgium</option>
+                  </select>
                 </div>
-                <div class="postCode"></div>
+                <div class="postCodeDiv">
+                  <label for="postcode">Post Code</label>
+                  <div class="inputField">
+                    <img src="" alt="" />
+
+                    <input
+                      type="number"
+                      min="1"
+                      name="postcode"
+                      id="postcode"
+                      placeholder="Enter your postal code..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="checkLeftDown">
+                <input type="checkbox" name="information" id="information" />
+                <label class="information" for="information"
+                  >See this information next time</label
+                >
               </div>
             </div>
           </div>
