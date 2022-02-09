@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CdnJs fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>CheckOut Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- title -->
+      <header class="title">
+        <h1>Checkout</h1>
+      </header>
+      <!-- main div  -->
+      <main class="inputForm">
+        <form class="inputFormLR" action="#" method="post">
+          <!-- leftFormDiv -->
+          <div class="inputForm-left">
+            <h4>Contact information</h4>
+            <!-- left div upside forms -->
+            <div class="inputForm-left-contactInfo">
+              <label for="email"> Email</label>
+              <div class="inputField">
+                <img
+                  src="./img/envelope-solid.svg"
+                  class="img-mini"
+                  alt="email-image"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="email"
+                  placeholder="Enter your email..."
+                />
+              </div>
+
+              <label for="tel">Phone</label>
+              <div class="inputField">
+                <img class="img-mini" src="./img/phone-solid.svg" alt="" />
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  placeholder="Enter your phone..."
+                />
+              </div>
+            </div>
+            <!-- left div downside forms -->
+            <h4>Shipping adress</h4>
+            <div class="inputForm-left-shippingAdress">
+              <label for="fullname">Full name</label>
+              <div class="inputField">
+                <img class="img-mini" src="./img/user-solid.svg" alt="" />
+                <input
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  placeholder="Enter your Full name..."
+                />
+              </div>
+              <label for="address">Adress</label>
+              <div class="inputField">
+                <img
+                  class="img-mini"
+                  src="./img/house-chimney-solid.svg"
+                  alt=""
+                />
+                <input
+                  type="text"
+                  name="adress"
+                  id="address"
+                  placeholder="Enter your address..."
+                />
+              </div>
+              <label for="city">City</label>
+              <div class="inputField">
+                <img class="img-mini" src="./img/city-solid.svg" alt="" />
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  placeholder="Enter your city..."
+                />
+              </div>
+              <!-- dropDownList and post code -->
+              <div class="leftDownside-last">
+                <div class="dropDownList">
+                  <label for=""></label>
+                </div>
+                <div class="postCode"></div>
+              </div>
+            </div>
+          </div>
+          <!-- RightFormDiv -->
+          <div class="inputForm-right"></div>
+        </form>
+      </main>
+    </div>
+  </body>
 </html>
