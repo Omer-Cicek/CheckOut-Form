@@ -1,18 +1,18 @@
 # CheckOut-Form
 
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+![Design preview for Checkout Form that updates based on the items price](CheckOut.gif)
 
 ## Welcome! 👋
 
-Thanks to visit my Github! In this project, i used flexbox. This project is created with HTML and CSS. Here is the link for this project (https://omer-cicek.github.io/Etherium-Project/)
+Thanks to visit my Github! In this project, i used flexbox. This project is created with HTML and CSS. Here is the link for this project (https://omer-cicek.github.io/CheckOut-Form/)
 
-**To do this project, i used basic HTML and CSS.**
+**To do this project, i used basic HTML, CSS and JavaScript.**
 
 ## The challenge
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- Click the button to update the product's price
 
 ## Got feedback for me?
 
