@@ -1,4 +1,4 @@
-# CheckOut-Form
+# Checkout-Form
 
 ![Design preview for Checkout Form that updates based on the items price](CheckOut.gif)
 
