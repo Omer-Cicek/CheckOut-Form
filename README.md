@@ -11,7 +11,6 @@ Thanks to visit my Github! In this project, i used flexbox. This project is crea
 ## The challenge
 
 Users should be able to:
-
 - Click the button to update the product's price
 
 ## Got feedback for me?
